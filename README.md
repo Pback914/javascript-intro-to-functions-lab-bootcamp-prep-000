@@ -1,4 +1,5 @@
-JavaScript Intro to Functions Lab
+
+ JavaScript Intro to Functions Lab
 ---
 
 ## Objectives
@@ -10,7 +11,8 @@ JavaScript Intro to Functions Lab
 
 ## Introduction
 
-Welcome to the JavaScript functions lab! You'll notice a few new things in this lesson that we haven't encountered before. Don't worry, we'll walk you through them.
+Welcome to the JavaScript functions lab! You'll notice a few new things in this lesson that we haven't encountered before. Don't worry, we'll walk you throu
+em.
 
 Even if you've walked through some of this material before, it's a good idea to review as we code-along — we're writing functions now, after all.
 
@@ -80,6 +82,8 @@ function shout(string) {
 And what should that function do? Well, the `it()` description tells us that it "receives one argument and returns it in all caps".
 
 Okay, so with that information, we know that our function should look like
+
+
 
 ``` javascript
 function shout(string) {

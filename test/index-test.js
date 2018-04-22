@@ -1,5 +1,9 @@
 
+
+
+
 describe('shout(string)', function() {
+
   it('receives one argument and returns it in all caps', function() {
     expect(shout('hello')).toEqual('HELLO')
   })
@@ -15,9 +19,9 @@ describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
-    logShout('hello')
+    logShout('HELLO')
 
-    expect(spy).toHaveBeenCalledWith('HELLO')
+    expect(spy).toHaveBeenCalledWith('hello')
 
     console.log.restore()
   })
